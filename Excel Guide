@@ -2,6 +2,10 @@ Básico
   Classificação e filtro de informações
     Filtro/Classificação de texto ou cor
     Filtro avançado - Dados/Filtro/Filtro Avançado
+  Validação de valores
+    Dados - Ferramenta de dados - Validação de dados
+      É muito útil usar listas para validação de valores
+    
   Funções essenciais
     Cont.Valores(Valor1:Valor2) = Contagem de células preenchidas
       Cont.Nun = Similar ao cont.valores, mas conta só células com valor, excluindo células ""
@@ -10,6 +14,10 @@ Básico
       Cont.ses(int1;crit1;int2;crit2...) = Contagem com parâmetros sobrepostos
     Soma(Valor1;Valor2) = Soma dos valores
       Somase(intervalo; criterios; intervaloSoma) = Soma com parâmetros
+    Media(intervalo) = Médias
+      Mediase(intervalo;criterios) = Média com parâmetros
+    Minimoses(invtervalo;criterios) = Valor mínimo
+    Maximooses(invtervalo;criterios) = Valor máximo
     
 
 Truques essenciais
