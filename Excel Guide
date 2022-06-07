@@ -1,0 +1,19 @@
+Básico
+  Classificação e filtro de informações
+    Filtro/Classificação de texto ou cor
+    Filtro avançado - Dados/Filtro/Filtro Avançado
+  Funções essenciais
+    Cont.Valores(Valor1:Valor2) = Contagem de células preenchidas
+      Cont.Nun = Similar ao cont.valores, mas conta só células com valor, excluindo células ""
+      Cont.Vazio = Contagem de células vazias
+    Cont.se(intervalo,critério) = Contagem com parâmetros
+      Cont.ses(int1;crit1;int2;crit2...) = Contagem com parâmetros sobrepostos
+    Soma(Valor1;Valor2) = Soma dos valores
+      Somase(intervalo; criterios; intervaloSoma) = Soma com parâmetros
+    
+
+Truques essenciais
+  Usar $ nas fórmulas de excel para fixar o valor de uma linha ou uma coluna
+  É possível usar ? como coringa de caracteres - Ex: casa ou flor, usar ????
+  Da mesma forma, podemos usar * para extrair qualquer valor que tenha tal argumento - Ex: *Verde* - Traz todos os valores que tenham verde
+  Sempre que possível, nomear os intervalos
