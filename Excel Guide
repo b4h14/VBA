@@ -18,6 +18,19 @@ Básico
       Mediase(intervalo;criterios) = Média com parâmetros
     Minimoses(invtervalo;criterios) = Valor mínimo
     Maximooses(invtervalo;criterios) = Valor máximo
+  
+  Procv
+    Sintaxe - procv(valorProcurado;intervaloTabela;numeroColuna;procuraÉAproximada)
+      O intervalo tem que incluir a coluna de descrições no intervaloTabela
+      Usar de preferência intervalos nomeados
+      numeroColuna conta a partir do 1
+  Corresp
+    Diferente do procv, o corresp retorna a posição de um valor procurado
+      Sintaxe - corresp(valorProcurado;intervaloTabela;correspondencia)
+        correspondencia 0 - exata
+        correspondencia -1 - maior valor logo acima do valor procurado
+        correspondencia 1 - menor valor logo abaixo do valor procurado
+        
     
 
 Truques essenciais
@@ -25,3 +38,4 @@ Truques essenciais
   É possível usar ? como coringa de caracteres - Ex: casa ou flor, usar ????
   Da mesma forma, podemos usar * para extrair qualquer valor que tenha tal argumento - Ex: *Verde* - Traz todos os valores que tenham verde
   Sempre que possível, nomear os intervalos
+  Usar o transpor para inverter a seleção e evitar retrabalho
