@@ -24,13 +24,22 @@ Básico
       O intervalo tem que incluir a coluna de descrições no intervaloTabela
       Usar de preferência intervalos nomeados
       numeroColuna conta a partir do 1
+    Da mesma forma, é possível fazer um Proch para fazer uma procura horizontal
+    
   Corresp
     Diferente do procv, o corresp retorna a posição de um valor procurado
       Sintaxe - corresp(valorProcurado;intervaloTabela;correspondencia)
         correspondencia 0 - exata
         correspondencia -1 - maior valor logo acima do valor procurado
         correspondencia 1 - menor valor logo abaixo do valor procurado
-        
+  Desloc() - Desloca a quantidade de linhas e colunas que for informado
+    Sintaxe - Desloc(celulaReferencia;nDeLinhas;nDeColunas)
+  Indice() - Encontra o valor com base na matriz informada 
+    Sintaxe - Indice(matrizTabela;nDeLinhas;nDeColunas)
+  Se(testeLogico;valorVerdadeiro;valorFalso)
+    Ses(logico1;valor1;logico2;valor2;...)
+  Seerro() - Criar uma condição que informa um erro
+  E()  Ou()  Nao() - Formulas booleanas
     
 
 Truques essenciais
