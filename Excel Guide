@@ -16,6 +16,7 @@ Básico
       Somase(intervalo; criterios; intervaloSoma) = Soma com parâmetros
     Media(intervalo) = Médias
       Mediase(intervalo;criterios) = Média com parâmetros
+        Mediases(intervaloValores;intervaloParametros;parametro)
     Minimoses(invtervalo;criterios) = Valor mínimo
     Maximooses(invtervalo;criterios) = Valor máximo
   
@@ -48,3 +49,4 @@ Truques essenciais
   Da mesma forma, podemos usar * para extrair qualquer valor que tenha tal argumento - Ex: *Verde* - Traz todos os valores que tenham verde
   Sempre que possível, nomear os intervalos
   Usar o transpor para inverter a seleção e evitar retrabalho
+  Hipotese de dados e gerenciador de cenarios para avaliar situacoes
