@@ -1,2 +1,9 @@
 Como abrir macros no excel 
   Clique direito na barra de opções, personalizar faixa de opções, desenvolvedor
+
+VBA
+  Comandos básicos
+    sheets("nomeDaAbadaPlanilha) - traz a planilha para o código
+  
+  Formulas básicas
+    sheets("nomePlanilha").select - Troca a visualização da planilha
