@@ -2,8 +2,25 @@ Como abrir macros no excel
   Clique direito na barra de opções, personalizar faixa de opções, desenvolvedor
 
 VBA
-  Comandos básicos
+  Comandos gerais
+    function - criar função que pode chamar na planilha
+    sub - criar função sem chamar planilha
+    double - numeros com decimais
+    integer - numeros inteiros
+    variant - variado
+    if / then / else
+    trim
+    
+  Comandos básicos do VBA
     sheets("nomeDaAbadaPlanilha) - traz a planilha para o código
+    range(celulaInicio,celulaFim) - agrupa células para uma função
+    msgbox "mensagemAlerta" - Criar uma caixa de diálogo
   
   Formulas básicas
     sheets("nomePlanilha").select - Troca a visualização da planilha
+    function.value - retorna o valor da célula na função
+    function.row - retorna o valor da linha da célula na função
+    ActiveCell - Chamar a célula selecionada na função
+    for...next - criar um laço iterador
+    do while ... lop - criar um laço de repetição
+    for each .. next
